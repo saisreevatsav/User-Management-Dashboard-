@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 // Connect to MongoDB (adjust URI as needed)
-mongoose.connect('mongodb://localhost:27017/yourdbname', {
+mongoose.connect('mongodb://localhost:27017/users', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
